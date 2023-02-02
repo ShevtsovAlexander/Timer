@@ -1,0 +1,28 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Software Tester 7';
+	background: linear-gradient(180deg,white, #32324e);
+	overflow: hidden;
+}
+.container {
+	width: 100%;
+}
+#timer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+}
+#timer_display {
+	cursor: pointer;
+	user-select: none;
+	color: #fff;
+	font-size: 8vw;
+}
+
